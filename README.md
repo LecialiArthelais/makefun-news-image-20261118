@@ -29,8 +29,9 @@ day — one hero, twelve top stories, thirty more in the "Also Today" band.
 A clean typographic front page (paper, ink, one red accent) composed with
 PIL: every word on the page is set programmatically, so the text is crisp
 and nothing is garbled. No photographs — the flat design keeps the PNG small
-(174,908 bytes). The program copies the finished front page to
-/output/entry.png.
+(174,908 bytes) while carrying forty-three stories. The program copies the
+finished front page to /output/entry.png and verifies the copy byte-for-byte
+against the source, so two runs always produce identical output.
 
 ## Sources
 
